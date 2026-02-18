@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
+import EmpireNetwork from './components/EmpireNetwork';
 
 interface Listing {
   id: number;
@@ -551,6 +552,8 @@ function App() {
             </div>
           </div>
         )}
+
+        <EmpireNetwork currentSite="bb-listings" />
 
         <footer className="bg-gray-800 text-white mt-12">
           <div className="max-w-7xl mx-auto px-4 py-8">

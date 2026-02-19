@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import EmpireNetwork from './components/EmpireNetwork';
 
+import ListingSuccess from "@/pages/ListingSuccess";
 interface Listing {
   id: number;
   title: string;
